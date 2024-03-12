@@ -16,11 +16,11 @@ public class DataBase {
 
         //copy file mssql-jdbc to /WEB-INF/lib to fix fub
         SQLServerDataSource sqlServerDataSource = new SQLServerDataSource();
-        sqlServerDataSource.setUser("sa");
-        sqlServerDataSource.setPassword("100799");
-        sqlServerDataSource.setServerName("BO-DINH");
-        sqlServerDataSource.setPortNumber(1433);
-        sqlServerDataSource.setDatabaseName("LTNC");
+        sqlServerDataSource.setUser("root");
+        sqlServerDataSource.setPassword("0859557594");
+        sqlServerDataSource.setServerName("Book");
+        sqlServerDataSource.setPortNumber(3306);
+        sqlServerDataSource.setDatabaseName("testjava");
 
         try {
             connection = sqlServerDataSource.getConnection();
